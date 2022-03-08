@@ -1,0 +1,124 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1CD1B0;
+    padding: 5px;
+}
+
+#palabra-header{
+    
+    margin-left: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.box-heroes{
+
+    background-color: #00669F;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+#palabra-heroes{
+    margin: 28px 0px 28px 26px;
+    font-size: 40px;
+}
+
+.super-heroes{
+    margin: 293px 0px 239px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 300px;
+}
+
+.columna-1{
+    display: inline-block;
+    text-align: center;
+    margin: 0 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-arriba{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+}
+
+.imagen-redonda{
+    border-radius: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+
+}
+
+.corazon{
+    position: absolute;
+    z-index: 10;
+    top: 480px;
+    margin-left: 20px;
+}
+
+.imagen-medio{
+    position:absolute; 
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 90px;
+    top:600px
+}
+
+.caja-info{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    z-index: 0;
+}
+
+.caja-info h3{
+    font-size: 30px;
+    margin-top: 74px;
+}
+
+.caja-info p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.boton{
+    background-color: #00669F;
+    margin-top: px;
+    font-size: 15px;
+    border: 2px solid #00669F;
+    text-decoration: none;
+    padding: 15px 37px;
+    color:#ffffff;
+}
+
+footer{
+    background-color: #00669F;
+    width: 100%;
+    left:0;
+    bottom: 0;
+    height: 51px;
+}
+
+footer h3{
+    color:#ffffff;
+    padding: 16px 0px 0px 16px;
+    font-size: 16px;
+    vertical-align: middle;
+}
